@@ -1,2 +1,2 @@
 import os
-os.popen('sh runn_all.sh')
+os.popen('sh run_all.sh')
