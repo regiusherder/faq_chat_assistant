@@ -1,0 +1,236 @@
+version: "3.1"
+
+nlu:
+- intent: chitchat/greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: chitchat/goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: chitchat/happy
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - wonderful
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - good
+    - i am good
+    - awesome
+    - nice
+    - okay
+    - ok
+
+- intent: chitchat/help
+  examples: |
+    - I have a doubt
+    - can you help me
+    - help
+    - doubt
+    - I have a question
+    - I am not understanding
+    - it is confusing
+
+- intent: faq/ask_bot_info
+  examples: |
+    - What is this chatbot made of?
+    - Can you tell me more about how this chatbot was created?
+    - I'm curious about the technology behind this chatbot, can you explain it?
+    - How does this chatbot work?
+
+- intent: faq/ask_company_purpose
+  examples: |
+    - What is the goal of hai labs?
+    - what is the purpose of hai labs
+    - what does hai labs do
+    - what is hai labs
+    - Can you tell me more about the mission of hai labs?
+    - What does hai labs aim to accomplish?
+    - Can you explain the purpose of hai labs?
+
+- intent: faq/ask_company_promise
+  examples: |
+    - What kind of problems does hai labs solve?
+    - Can you tell me more about the value proposition of hai labs?
+    - What is the promise of hai labs?
+    - Do you guarantee jobs
+    - will i get job
+
+- intent: faq/ask_eligibility
+  examples: |
+    - Who is eligible to learn from hai labs?
+    - Are there any age restrictions for hai labs?
+    - what is the age requirement
+    - minimum age
+    - what age is suitable for this course
+    - Who can benefit from learning at hai labs?
+    - Can you tell me more about the target audience for hai labs?
+
+- intent: faq/ask_differentiation
+  examples: |
+    - what sets hai labs apart from other learning platforms?
+    - How does hai labs approach teaching differently?
+    - What unique methodologies does hai labs use?
+    - how is hai labs different
+    - why hai labs
+    - why your company
+
+- intent: faq/ask_course_curriculum
+  examples: |
+    - How long is each concept covered?
+    - What specific topics are covered in the hai labs course?
+    - What is the syllabus for the hai labs course?
+    - What will I learn in the hai labs course?
+    - what is covered in hai labs
+    - what concepts are taught in hai labs
+    - what topics will you teach
+    - what do you teach
+
+- intent: faq/ask_advantages_early_learning
+  examples: |
+    - What benefits does learning data science at a young age provide?
+    - How does learning data science at a young age shape the mind?
+    - Why is it beneficial to start learning data science early?
+    - why do we learn data science at a young age
+    - why to learn data science early
+    - why should i learn data science
+
+- intent: faq/ask_computer_specifications
+  examples: |
+    - What are the minimum storage requirements for the course?
+    - What are the minimum processing requirements for the course?
+    - What are the recommended computer specifications for the course?
+    - minimum requirement for computer
+    - what is the computer requirement
+    - can we use mobile phones for the course
+    - is computer needed to do the course
+
+- intent: faq/ask_support_options
+  examples: |
+    - How can I get help during the course?
+    - What support channels does hai labs offer?
+    - can i contact the mentors
+    - where can i ask doubts related to the course
+
+- intent: faq/ask_course_structure
+  examples: |
+    - How is the course structured?
+    - Can you provide an overview of the course schedule?
+    - How long is the course?
+    - What is the format of the course?
+    - What is the syllabus for the course?
+    - Are there any opportunities for hands-on learning or real-world experience?
+    - Are there any opportunities for one-on-one instruction or mentorship?
+    - Are there any opportunities for group work or collaboration?
+    - Are there any opportunities for self-paced learning?
+    - Are there any opportunities for online or offline learning?
+    - Are there any opportunities for offline or online assessment?
+    - Are there any opportunities for online or offline certification?
+
+- intent: faq/ask_ethical_standards
+  examples: |
+    - What ethical principles does hai labs follow?
+    - What moral standards does hai labs adhere to?
+    - what ethics do hai labs teach
+    - what morals do hai labs teach
+    - Do Hailabs cover the ethos and morals of AI?
+
+- intent: faq/ask_skills_acquired
+  examples: |
+    - What specific skills will I acquire through the course?
+    - How will the skills I learn in the course be applied in real-world scenarios?
+    - What are the key takeaways from this course?
+    - can you tell me more about the practical applications of the skills learned in this course?
+    - How will the knowledge gained in this course benefit me in my career?
+    - What specific tools and technologies will I become proficient in through this course?
+    - Will I be able to apply the skills learned in this course to real-world projects?
+    - What type of job or career opportunities will this course prepare me for?
+    - How does this course align with industry standards and trends?
+    - How does this course differ from other similar courses in terms of skills acquired?
+    - what skills will i learn
+    - what skills do you teach
+    - what skills will i get
+
+- intent: faq/ask_data_privacy_policy
+  examples: |
+    - How does hai labs protect my personal information?
+    - What measures does hai labs take to ensure data security?
+    - Can you tell me more about hai labs' privacy policy?
+
+- intent: faq/ask_cost
+  examples: |
+    - How much does the course cost?
+    - What is the price?
+    - How much do I need to pay for the course?
+    - Can you tell me the cost?
+    - What is the total expense of the program?
+    - How much is the fee?
+    - What are the charges?
+    - Is there any hidden cost?
+
+- intent: general/ds_overview
+  examples: |
+    - What is data science?
+    - what is DS
+    - Why is data science important?
+    - How is data science used in the future?
+    - How is data science related to AI?
+    - How is data science related to machine learning?
+    - What are the key concepts in data science?
+    - How does data science differ from traditional statistics?
+    - Can you give an overview of data science
+
+- intent: general/ml_overview
+  examples: |
+    - What is machine learning?
+    - Why is machine learning important?
+    - what is ML
+    - How is machine learning related to AI?
+    - How useful is machine learning for the future?
+    - Will machine learning replace human operations?
+    - How does machine learning make jobs simpler?
+    - How does machine learning work?
+    - What are the key concepts in machine learning?
+    - What are the different types of machine learning?
+    - How does machine learning differ from traditional programming?
+
+- intent: general/ai_overview
+  examples: |
+     - What is artificial intelligence?
+     - Why is artificial intelligence important?
+     - How is AI used in the future?
+     - Is AI dangerous to humans?
+     - Will AI replace humans?
+     - Will AI cause harm to mankind?
+     - How is AI implemented?
+     - What are the key concepts in AI?
+     - How is AI different from data science?
+     - How is AI different from machine learning?
+     - Can you give an overview of AI?
+     - what is AI

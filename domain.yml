@@ -1,0 +1,73 @@
+version: "3.1"
+
+intents:
+  - chitchat
+  - faq
+
+responses:
+  utter_chitchat/greet:
+  - text: "Hey! How are you?"
+
+  utter_chitchat/happy:
+  - text: "Great, carry on!"
+
+  utter_chitchat/goodbye:
+  - text: "Bye"
+
+  utter_chitchat/help:
+  - text: "How can I help you? While asking please do elaborate your question."
+
+  utter_faq/ask_bot_info:
+  - text: "This is a chatbot made using Rasa Open Source Framework, using Python and YAML"
+
+  utter_faq/ask_company_purpose:
+  - text: "We aim to improve Data Science and Machine Learning literacy in the k12 of Tier2 and Tier3 cities. We are on a mission to inspire a million students to engage in future paradigms such as machine learning, artificial intelligence, and data science."
+
+  utter_faq/ask_company_promise:
+  - text: "We do not guarantee jobs or grades. Our promise is to develop AI-aware, problem-solving smart professionals."
+
+  utter_faq/ask_eligibility:
+  - text: "Anyone who is curious about data, data science, and machine learning and is eager to learn more about it. students in the age group of 10–14 are recommended."
+
+  utter_faq/ask_differentiation:
+  - text: "Age appropriate and child friendly content- application of maths of statistics \nPersonalisation : We can learn how students learn -  enabling contextual and adaptive learning.\nProject based learning: Encourage students to take self-initiative. Learning by doing\nGammification: Increase curiosity by experimenting. Rewards, points and merchandiser."
+
+  utter_faq/ask_course_curriculum:
+  - text: "More focus is placed on gathering data, organising data, labelling data, comprehending features, training models, testing models, and applying models in applications.\nEach level exposes children to different types of data sets like images, sounds, videos, numbers, tests, etc., starting from simple supervised classification models and regression models to unsupervised models and further horizons of machine learning."
+
+  utter_faq/ask_advantages_early_learning:
+  - text: "Students who study data science in school do better in class and develop better analytical, logical, and problem-solving skills, which will help them succeed in a world driven by data."
+
+  utter_faq/ask_computer_specifications:
+  - text: "A standard general-purpose laptop or desktop widows or mac computer.\nYou can use any computer with \nIntel Core i3 and above CPU\nAT Least 4GB RAM\nWired DSL Internet Connection/ WiFi - at least 20 Mbps\nBrowser: Chrome and Firefox"
+
+  utter_faq/ask_support_options:
+  - text: "During beta stage we provide support via email and phone call. There is also a drop in session, which will be communicated to parents via email."
+
+  utter_faq/ask_course_structure:
+  - text: "Hailabs has short videos to teach the concept, quizzes and flashcards to test what they've learned, activities to apply their learning, and projects to experiment with or develop solutions for problems."
+
+  utter_faq/ask_ethical_standards:
+  - text: "We consider ethics and morals as part of responsible AI topics. We introduce this via case studies that students can relate to."
+
+  utter_faq/ask_skills_acquired:
+  - text: "Age-appropriate skills a student gains through self-paced short videos, activities, and projects\nData science principles\nResponsible AI\nAnalytical thinking\nMathematical thinking\nData structures\nApplication of statistics and probability"
+
+  utter_faq/ask_data_privacy_policy:
+  - text: "We don’t collect any personal or sensitive data. Emission data is used to improve the user experience and personalisation."
+
+  utter_faq/ask_cost:
+  - text: "The HAI Labs' initial levels are free to use at any time. Following the MVP, additional levels and personalisation become available for a nominal monthly fee."
+
+  utter_general/ds_overview:
+  - text: "Data science is a multidisciplinary field that uses statistical and computational methods to extract insights and knowledge from data, it is used to make informed decisions based on data and has a wide range of applications in the future."
+
+  utter_general/ml_overview:
+  - text: "Machine learning is a method of data analysis that uses algorithms and statistical models to enable systems to learn from data and make predictions or decisions without being explicitly programmed to do so. It is important because it allows systems to improve their performance and adapt to new situations without human intervention."
+
+  utter_general/ai_overview:
+  - text: "Artificial Intelligence (AI) is the simulation of human intelligence in machines, it allows machines to perform tasks that would normally require human intelligence and make decisions based on data. It has a wide range of applications in the future and can be implemented in several ways."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
